@@ -1,0 +1,120 @@
+nav.navbar{ /*Fondo del nav bar*/
+	background-color: transparent;
+	border: 0;
+}
+.navbar-default .navbar-brand {/*Color del titulo*/
+    color: white;
+    font-size: 200%;
+}
+.navbar-default .navbar-nav > li > a { /*Color de links*/
+    color: #D7DBDD;
+}
+.navbar-default .navbar-nav > li > a:hover,/*Color de links puntero sobre ellos*/
+.navbar-default .navbar-nav > li > a:focus {
+    color: black;
+}
+
+.navbar-default .navbar-nav > .active > a, /*Fondo de links puntero sobre ellos*/
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: black;
+    background-color: none;
+}
+
+header{
+	background-image: url("../img/header.jpg");
+	background-size: 100%;
+}
+h1{
+	color: white;
+	text-align: center;
+	padding: 8%;
+	margin-top: 10%;
+}
+.texto{
+	text-align: center;
+	color: #D7DBDD;
+}
+.boton{
+	margin-bottom: 10%;
+	background-color: #EF5010;
+	border: 0;
+	margin-top: 4%;
+}
+.fondo1{
+	background-color: #EA8015;
+	color: white;
+	text-align:center;
+	padding:7%;
+}
+hr{
+	width: 10%;
+}
+.hr1{
+	width: 10%;
+	border-color: #EA3215;
+}
+.glyphicon{
+	color: orange;
+	font-size: 120px;
+}
+#foto1{
+	background-image: url(../img/1.jpg);
+	background-size: 50% cover;
+	height: 200px;	
+	background-repeat: no-repeat;
+}
+#foto2{
+	background-image: url(../img/2.jpg);
+	background-size: 50% cover;
+	height: 200px;	
+	background-repeat: no-repeat;
+}
+#foto3{
+	background-image: url(../img/3.jpg);
+	background-size: 50% cover;
+	height: 200px;	
+	background-repeat: no-repeat;
+}
+#foto4{
+	background-image: url(../img/4.jpg);
+	background-size: 50% cover;
+	height: 200px;	
+	background-repeat: no-repeat;
+}
+#foto5{
+	background-image: url(../img/5.jpg);
+	background-size: 50% cover;
+	height: 200px;	
+	background-repeat: no-repeat;
+}
+#foto6{
+	background-image: url(../img/6.jpg);
+	background-size: 50% cover;
+	height: 200px;	
+	background-repeat: no-repeat;
+}
+.transparent{
+	background-color: #EF5010;
+	opacity: 0.5;
+	height: 200px;
+	background-size: 50%;
+}
+.textoim{
+	color: white;
+	padding: 20%;
+	margin-left: 20%;	
+}
+.textoim2{
+	color: white;
+	margin-left: 35%;
+	
+}
+
+.gly{
+	font-size: 300%;
+	color: black;
+}
+.texton{
+	color: orange;
+}
